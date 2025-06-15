@@ -1,5 +1,5 @@
 # Основной тик
-execute as @a[nbt={SelectedItem:{tag:{myo_creator:1b}}}] at @s run function myo:core/check_use
+execute as @a at @s if items entity @s weapon.mainhand chest[custom_data~{myo_creator:1b}] run function myo:core/check_use
 execute as @a[scores={myo_menu=1..}] at @s run function myo:menu/handle
 execute as @a[scores={myo_editor=1..}] at @s run function myo:editor/handle
 function myo:editor/detect_base
