@@ -1,2 +1,2 @@
 # Создание нового листа
-tellraw @s [{"text":"[MYO] ","color":"gold"},{"text":"Новый лист создан! (Функция в разработке)","color":"green"}]
+tellraw @s [{'text':'[MYO] ",color:'gold'},{text:'Новый лист создан! (Функция в разработке)',color:'green'}]

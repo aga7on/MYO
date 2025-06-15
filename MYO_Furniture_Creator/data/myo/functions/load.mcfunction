@@ -1,6 +1,6 @@
 # MYO Furniture Creator - Load Function
-tellraw @a [{"text":"[MYO] ","color":"gold"},{"text":"Furniture Creator загружен! ","color":"green"},{"text":"[Помощь]","color":"yellow","clickEvent":{"action":"run_command","value":"/function myo:help"},"hoverEvent":{"action":"show_text","contents":"Нажмите для справки"}}]
-tellraw @a [{"text":"Используйте ","color":"green"},{"text":"/function myo:give_creator","color":"yellow","clickEvent":{"action":"run_command","value":"/function myo:give_creator"}},{"text":" для получения создателя мебели.","color":"green"}]
+tellraw @a [{text:'[MYO] ',color:'gold'},{text:'Furniture Creator загружен! ',color:'green'},{text:'[Помощь]',color:'yellow',click_event:{action:'run_command',value:'/function myo:help'},hover_event:{action:'show_text',contents:'Нажмите для справки'}}]
+tellraw @a [{text:'Используйте ',color:'green'},{text:'/function myo:give_creator',color:'yellow',click_event:{action:'run_command',value:'/function myo:give_creator'}},{text:' для получения создателя мебели.',color:'green'}]
 scoreboard objectives add myo_data dummy
 scoreboard objectives add myo_menu dummy
 scoreboard objectives add myo_editor dummy

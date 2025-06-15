@@ -1,8 +1,8 @@
 # Настройка хотбара редактора - страница 2
-item replace entity @s hotbar.0 with book[]]'},CustomModelData:1,myo_prev_page:1b}
-item replace entity @s hotbar.1 with painting[]]'},CustomModelData:1,myo_texture:1b}
-item replace entity @s hotbar.2 with writable_book[]]'},CustomModelData:1,myo_properties:1b}
-item replace entity @s hotbar.3 with emerald[]]'},CustomModelData:1,myo_save:1b}
+item replace entity @s hotbar.0 with book[]},custom_model_data=1,myo_prev_page:1b}
+item replace entity @s hotbar.1 with painting[]},custom_model_data=1,myo_texture:1b}
+item replace entity @s hotbar.2 with writable_book[]},custom_model_data=1,myo_properties:1b}
+item replace entity @s hotbar.3 with emerald[]},custom_model_data=1,myo_save:1b}
 item replace entity @s hotbar.4 with air
 item replace entity @s hotbar.5 with air
 item replace entity @s hotbar.6 with air
